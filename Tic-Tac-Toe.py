@@ -1,12 +1,6 @@
 import random
 
 def printArr(arr):
-    for r in range(len(arr)):
-        for c in range(len(arr[0])):
-            print(arr[r][c], end = '')
-        print()
-
-def printArr(arr):
     for r in range(3):
         print('', arr[r][0], '|', arr[r][1], '|', arr[r][2])
         if r != 2:
